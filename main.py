@@ -49,5 +49,4 @@ for filepath in filepaths:
 
     pdf.set_font('Times', 'B', 14)
     pdf.cell(30, 8, f"The Total Price is {total_price}", ln=1)
-    print(total_price)
     pdf.output(f"PDFs/{filename}.pdf")
